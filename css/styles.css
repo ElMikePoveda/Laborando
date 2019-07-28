@@ -1,0 +1,20 @@
+
+body{
+	background-size: cover; 
+	background:url("../Laborando/22.png");
+}
+.buttons{
+margin-top: 20%;
+margin-left: 30%;
+}
+
+.buttons button{
+	background-color: transparent;
+	border-radius: 25px;
+	padding: 50px;
+	border-color: black;
+	font-size: 2em;
+	font-family:'Tahoma';
+	color: black;
+
+}
