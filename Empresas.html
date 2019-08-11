@@ -1,12 +1,14 @@
-a<!DOCTYPE html>
+
 <html>
 <head>
-    <link rel="shortcut icon" href="espectador/el especulador.ico" type="image/vnd.microsoft.icon" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <title>Laborando</title>
+    <title>Laborando.com</title>
 
 <style type="text/css">
 
@@ -24,8 +26,10 @@ a<!DOCTYPE html>
 header {
     width: 100%;
     background-color: #000;
-    height: 40px;
+    font-size:15px;
+    height: 44px;
 }
+
 
 ul, ol {
     list-style: none;
@@ -66,43 +70,24 @@ z-index:2;
     width:50%;
     align-items: center;
     text-align: center;
-    padding-top:10px;
+    padding-top:8px;
     padding-left:200px;
 }
 
 
 
-#deportes > a:hover{
+#Empresas > a:hover{
     background-color: green!important;
 }
 #index > a:hover{
     background-color: purple!important;
 }
-#MedioAmbiente > a:hover{
+#Empleos > a:hover{
     background-color: orange!important;
 }
-#Economia > a:hover{
-    background-color: red!important;
+#Registro > a:hover{
+    background-color: #26c6da!important; 
 }
-#Entretenimiento > a:hover{
-    background-color: teal!important;
-}
-#Cultura> a:hover{
-    background-color: blue!important;
-}
-#Politica> a:hover{
-    background-color: #827717!important;
-}
-#Opinion> a:hover{
-    background-color: brown!important;
-}
-#NoticiasInternacionales> a:hover{
-    background-color: #f4511e!important;
-}#Estrenos> a:hover{
-    background-color: turquoise!important;
-}
-
-
 
 </style>
 
@@ -112,27 +97,27 @@ z-index:2;
 <body>
         
 <div class="logo">
-    <table width="250%" border="0">
+    <table width="230%" border="0" >
         <tr>
-            <td align="left">
-                <img align="left" src="espectador/el especulador.png">
-           
+            <td width="60%" align="left">
+                <img align="left" src="Laborando/laborando.png" width="50%">
+           </td>
                 <td>
-                <a href="https://twitter.com/elespectador" class="btn btn-default circle" style="border-radius: 50%">
+                <a class="btn btn-default circle" aling="center" style="font-size:15px; border-radius: 100%">
                     <span class="fab fa-twitter"></span></a>
-                <a href="https://www.facebook.com/elespectador/" class="btn btn-default circle" style="border-radius: 50%">
+                <a  class="btn btn-default circle" style="font-size:15px; border-radius:80%">
                     <span class="fab fa-facebook-f"></span></a>
                 
-                <a href="https://www.instagram.com/elespectador" class="btn btn-default circle" style="border-radius: 50%">
+                <a  class="btn btn-default circle" style="font-size:15px; border-radius: 50%">
                     <span class="fab fa-instagram"></span></a>
-                <a href="https://youtube.com/elespectador" class="btn btn-default circle" style="border-radius: 50%">
+                <a  class="btn btn-default circle" style="font-size:15px; border-radius: 50%">
                     <span class="fab fa-youtube"></span></a>
             
             </td>
             <td>
 
-                <button align="right" type="button" class="btn btn-warning">Suscribete</button>
-            <button align="right" type="button" class="btn btn-dark"style="color:#fff;">Iniciar Sesion</button>
+            <button  align="right" type="button" class="btn btn-warning" style="border-radius:10px; font-size:19px;">Registrarse</button>
+            <button  align="right" type="button" class="btn btn-dark"style="border-radius:10px;  font-size:18px;color:#fff;">Iniciar Sesion</button>
 
 
             </td>
@@ -152,41 +137,205 @@ z-index:2;
 <div id="header">
     
     <ul class="nav">
-        <li id="index" style="margin-left: 430px" style="background-color: purple"><a href="index.html">Inicio</a></li>
-        <li id="deportes" style="background-color: green"><a href="Empresas.html">Empresas</a>
-         </li>
-        <li id="MedioAmbiente" style="background-color: orange"><a href="Empleos.html">Empleos</a>    
-        </li>
+        <li id="index" style="margin-left: 380px" style="background-color: purple"><a href="index.html">Inicio</a></li>
+        <li id="Empresas" style="background-color: green"><a href="Empresas.html">Empresas</a></li>
+        <li id="Empleos" style="background-color: orange"><a href="Empleos.html">Empleos</a></li>
+        <li id="Registro" style="background-color:#26c6da "><a href="Registro.html">Registrados</a></li>
         
 </div>
-<hr>
 
 
-    
-<div>
+</header>
+
+
+<br>
+    <center><h1>NUESTROS ALIADOS </h1>
+    </center>
+
+    <hr>
     <div class="container">
         <div class="row">
-
-            <div class="col-md-12">
-                <!-- ini contenido -->
-                <div class="panel panel-default"  style="background-color:white">
-                    
-                    <div class="panel-body">
-                             <div class="form-group">
-                                <a href="asi a sido.html"><img src="espectador/tecnicos1.png"></a>
-                             </div>
-                             <div class="col-md-14">
-                                
-                            </div>
-
+	       <div class="col-md-12">	
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/1.png">
+                        </a>
+                        </div>
+                        <div class="col-md-9">
+                             <h2>Alpina</h2>
+                           <h3>La marca Alpina lleva más de 70 años ofreciendo productos lácteos de calidad en todo el territorio nacional. 
+                         Hoy es el activo más importante de la empresa y en el escalafón de Compassbranding ocupa el quinto lugar entre las marcas colombianas de productos más valiosas
+                        </h3>
+                        <a href="https://www.alpina.com/"target="_blank">
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <!-- fin contenido-->
-            </div>     
-            
+               </li>
+            </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="col-md-12">
+                 <li class="breadcrumb">
+                     <div class="row">
+                        <div class="col-md-3">
+                         <img style="border-radius: 10px;" src="Laborando/2.png">
+                            </div>
+                            <div class="col-md-9">
+                        <h2>Avianca </h2>
+                        <h3>Somos la marca comercial que representa a las aerolíneas latinoamericanas integradas en Avianca Holdings S.A. 
+                        Nuestro equipo humano integrado por más de 19.000 colaboradores ha sido destacado por su excelencia en el servicio. Con las aerolíneas Avianca, especializadas en el transporte de pasajeros y carga, atendemos en forma directa más de 108 destinos en 26 países de América y Europa a bordo de una moderna flota de 189 aeronaves de corto, mediano y largo alcance. ​
+                        </h3>
+                        <a href="https://www.avianca.com/co/es/sobre-nosotros/quienes-somos/"target="_blank">
+                            <button style="font-size: 20px; border-radius: 5px;" type="button" class="btn btn-success">Leer Más</button>
+                        </a>
+                </li>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                 <li class="breadcrumb">
+                     <div class="row">
+                        <div class="col-md-3">
+                        <img style="border-radius: 10px;" src="laborando/3.png">
+                            </div>
+                            <div class="col-md-9">
+                        <h2>Colombina</h2> 
+                        <h3>Compañía global de alimentos que busca cautivar al consumidor a través de la innovación y el sabor de sus productos. 
+                        En Colombina trabajamos a lo largo de toda la cadena de valor para garantizar la calidad e inocuidad de nuestros productos, capacitando al equipo humano de nuestras plantas.
+                        </h3>
+                        <a href="https://www.colombina.com/corporativo/nuestrahistoria.php"target="_blank">
+                             <button style="font-size: 20px; border-radius: 5px;" type="button" class="btn btn-success">Leer Más</button>
+                        </a>
+                 </li>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+	           <li class="breadcrumb">
+                <div class="row">
+                        <div class="col-md-3">
+                        <img style="border-radius: 10px;" src="laborando/4.png">
+                        </div>
+                            <div class="col-md-9">
+                        <h2>TCC</h2>
+                        <h3>Somos TCC, grupo humano, íntegro, cálido y experto que brinda tranquilidad y confianza a sus clientes, a través de soluciones logísticas innovadoras en la cadena de abastecimiento.
+                        Actuamos con responsabilidad y coherencia. Estamos comprometidos con el desarrollo sostenible. 
+                        </h3>
+                         <a href="https://www.tcc.com.co/logistica/acerca-de-tcc/"target="_blank">
+                            <button style="font-size: 20px; border-radius: 5px;" type="button" class="btn btn-success">Leer Más</button>
+                        </a>
+                </li>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3">
+                        <img style="border-radius: 10px;" src="laborando/5.png">
+                         </div>
+                            <div class="col-md-9">
+                        <h2>Nutresa</h2> 
+                        <h3>Grupo Nutresa S. A. es la empresa líder en alimentos procesados en Colombia (59,2% participación de mercado,con presencia directa en 14 países y ventas.
+                        Es la segunda empresa mejor reputada de Colombia de acuerdo con el monitor MERCO Empresas 2018 y es la segunda mejor empresa del país para atraer y retener talento según el monitor MERCO Talento 2019. 
+                        </h3>
+                        <a href="https://www.gruponutresa.com/inversionistas/perfil-de-la-compania/presentacion-corporativa-fact-sheet/"target="_blank">   
+                         <button style="font-size: 20px; border-radius: 5px;" type="button" class="btn btn-success">Leer Más</button>         
+                        </a>
+                </li>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+	           <li class="breadcrumb">
+                <div class="row">
+                        <div class="col-md-3">
+                        <img style="border-radius: 10px;" src="laborando/6.png">
+                          </div>
+                            <div class="col-md-9">
+                        <h2>Bancolombia</h2>
+                        <h3>Somos un grupo financiero líder que marca tendencia, genera una experiencia superior para sus clientes, orgullo para sus empleados y valor para sus accionistas, de manera sostenible.
+                        </h3>
+                         <a href="https://www.grupobancolombia.com/wps/portal/acerca-de/informacion-corporativa/quienes-somos"target="_blank">
+                            <button style="font-size: 20px; border-radius: 5px;" type="button" class="btn btn-success">Leer Más</button>    
+                        </a>
+                </li>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+	           <li class="breadcrumb">
+                <div class="row">
+                        <div class="col-md-3">
+                        <img style="border-radius: 10px;" src="laborando/7.png">
+                        </div>
+                            <div class="col-md-9">
+                        <h2>Teleperfomace</h2>
+                        <h3>Teleperformance en Colombia cuenta con 13 sites y cerca de 18.000 empleados en sus sedes de Bogotá y Medellín. Además, hay vacantes desde casa en Bogotá, Medellín, Barranquilla, Cali y Tunja para nivel avanzado de Inglés.
+                        </h3>
+                         <a href="http://www.teleperformance.co/es-es/"target="_blank">
+                             <button style="font-size: 20px; border-radius: 5px;" type="button" class="btn btn-success">Leer Más</button>    
+                        </a>
+                </li>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3">
+                        <img style="border-radius: 10px;" src="laborando/8.png">
+                        </div>
+                            <div class="col-md-9">
+                        <h2>CONCONCRETO</h2>
+                        <h3>La empresa colombiana Constructora ConConcreto. Entrega servicios de planificación, diseño, construcción, operación y mantenimiento para proyectos de ingeniería 
+                        </h3>
+                         <a href="https://conconcreto.com/"target="_blank">
+                            <button style="font-size: 20px; border-radius: 5px;" type="button" class="btn btn-success">Leer Más</button>
+                        </a>
+                </li>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+	           <li class="breadcrumb"> 
+                            <div class="row">
+                        <div class="col-md-3">
+                        <img style="border-radius: 10px;" src="laborando/9.png">
+                        </div>
+                            <div class="col-md-9">
+                        <h2>VISE</h2>
+                        <h3>La empresa que presta servicios de outsourcing en seguridad superando las expectativas de los clientes, con presencia en Latino América y consolidada como una empresa dinámica, eficiente,modelo de desarrollo empresarial y social.
+                        </h3>
+                        <a href="http://www.viseltda.com/sites-visecol/site0/"target="_blank">
+                            <button style="font-size: 20px; border-radius: 5px;" type="button" class="btn btn-success">Leer Más</button>
+                        </a>
+                </li>
+            </div>
+        </div>                     
+        <div class="row">
+            <div class="col-md-12">
+	            <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3">
+                        <img style="border-radius: 10px;" src="laborando/10.png">
+                        </div>
+                            <div class="col-md-9">
+                        <h2>Panamericana</h2>
+                        <h3>Panamericana es una gran cadena conformada por 37 tiendas a nivel nacional, que con más de 2.000 empleados directos, 300 temporales en promedio y 500 indirectos constituye un gran aporte al progreso de nuestro país.
+                        Nuestro propósito día a día es dar a nuestros clientes un mejor servicio a través de la atención personalizada, asesoría en la compra y uso de productos por parte de nuestro personal calificado y capacitado permanentemente.
+                        </h3>
+                         <a href="https://www.panamericana.com.co/links-interes/quienes-somos"target="_blank">
+                             <button style="font-size: 20px; border-radius: 5px;" type="button" class="btn btn-success">Leer Más</button>
+                        </a>
+                </li>
+            </div>
+        </div>
 </div>
+
+
 
 
 

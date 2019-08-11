@@ -1,12 +1,14 @@
-a<!DOCTYPE html>
+
 <html>
 <head>
-    <link rel="shortcut icon" href="espectador/el especulador.ico" type="image/vnd.microsoft.icon" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <title>Laborando</title>
+    <title>Laborando.com</title>
 
 <style type="text/css">
 
@@ -24,8 +26,10 @@ a<!DOCTYPE html>
 header {
     width: 100%;
     background-color: #000;
-    height: 40px;
+    font-size:15px;
+    height: 44px;
 }
+
 
 ul, ol {
     list-style: none;
@@ -66,43 +70,24 @@ z-index:2;
     width:50%;
     align-items: center;
     text-align: center;
-    padding-top:10px;
+    padding-top:8px;
     padding-left:200px;
 }
 
 
 
-#deportes > a:hover{
+#Empresas > a:hover{
     background-color: green!important;
 }
 #index > a:hover{
     background-color: purple!important;
 }
-#MedioAmbiente > a:hover{
+#Empleos > a:hover{
     background-color: orange!important;
 }
-#Economia > a:hover{
-    background-color: red!important;
+#Registro > a:hover{
+    background-color: #26c6da!important; 
 }
-#Entretenimiento > a:hover{
-    background-color: teal!important;
-}
-#Cultura> a:hover{
-    background-color: blue!important;
-}
-#Politica> a:hover{
-    background-color: #827717!important;
-}
-#Opinion> a:hover{
-    background-color: brown!important;
-}
-#NoticiasInternacionales> a:hover{
-    background-color: #f4511e!important;
-}#Estrenos> a:hover{
-    background-color: turquoise!important;
-}
-
-
 
 </style>
 
@@ -112,27 +97,27 @@ z-index:2;
 <body>
         
 <div class="logo">
-    <table width="250%" border="0">
+    <table width="230%" border="0" >
         <tr>
-            <td align="left">
-                <img align="left" src="espectador/el especulador.png">
-           
+            <td width="60%" align="left">
+                <img align="left" src="Laborando/laborando.png" width="50%">
+           </td>
                 <td>
-                <a href="https://twitter.com/elespectador" class="btn btn-default circle" style="border-radius: 50%">
+                <a class="btn btn-default circle" aling="center" style="font-size:15px; border-radius: 100%">
                     <span class="fab fa-twitter"></span></a>
-                <a href="https://www.facebook.com/elespectador/" class="btn btn-default circle" style="border-radius: 50%">
+                <a  class="btn btn-default circle" style="font-size:15px; border-radius:80%">
                     <span class="fab fa-facebook-f"></span></a>
                 
-                <a href="https://www.instagram.com/elespectador" class="btn btn-default circle" style="border-radius: 50%">
+                <a  class="btn btn-default circle" style="font-size:15px; border-radius: 50%">
                     <span class="fab fa-instagram"></span></a>
-                <a href="https://youtube.com/elespectador" class="btn btn-default circle" style="border-radius: 50%">
+                <a  class="btn btn-default circle" style="font-size:15px; border-radius: 50%">
                     <span class="fab fa-youtube"></span></a>
             
             </td>
             <td>
 
-                <button align="right" type="button" class="btn btn-warning">Suscribete</button>
-            <button align="right" type="button" class="btn btn-dark"style="color:#fff;">Iniciar Sesion</button>
+            <button  align="right" type="button" class="btn btn-warning" style="border-radius:10px; font-size:19px;">Registrarse</button>
+            <button  align="right" type="button" class="btn btn-dark"style="border-radius:10px;  font-size:18px;color:#fff;">Iniciar Sesion</button>
 
 
             </td>
@@ -147,46 +132,404 @@ z-index:2;
 <header>
 
 
-
+<center></center>
 
 <div id="header">
     
     <ul class="nav">
-        <li id="index" style="margin-left: 430px" style="background-color: purple"><a href="index.html">Inicio</a></li>
-        <li id="deportes" style="background-color: green"><a href="Empresas.html">Empresas</a>
-         </li>
-        <li id="MedioAmbiente" style="background-color: orange"><a href="Empleos.html">Empleos</a>    
-        </li>
+        <li id="index" style="margin-left: 380px" style="background-color: purple"><a href="index.html">Inicio</a></li>
+        <li id="Empresas" style="background-color: green"><a href="Empresas.html">Empresas</a></li>
+        <li id="Empleos" style="background-color: orange"><a href="Empleos.html">Empleos</a></li>
+        <li id="Registro" style="background-color:#26c6da "><a href="Registro.html">Registrados</a></li>
         
 </div>
-<hr>
 
 
+</header>
+
+
+<br>
+    <center><h1>PERSONAS REGISTRADAS</h1>
     
-<div>
+
+    <hr>
+    <div>
     <div class="container">
         <div class="row">
-
-            <div class="col-md-12">
-                <!-- ini contenido -->
-                <div class="panel panel-default"  style="background-color:white">
-                    
-                    <div class="panel-body">
-                             <div class="form-group">
-                                <a href="asi a sido.html"><img src="espectador/tecnicos1.png"></a>
-                             </div>
-                             <div class="col-md-14">
-                                
-                            </div>
-
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p1.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Martínez Gómez</h3>
+                            <h3>Nombres: Laura</h3>  
+                            <h3> Edad:   27</h3>  
+                            <h3> Info:   Estudiante de Séptimo semestre de Administración de Empresas con énfasis en Salud.</h3>  
+                            
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
                     </div>
-                </div>
-                <!-- fin contenido-->
-            </div>     
-            
+               </li>
+            </div>
+        </div>
+         <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p2.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Pérez Rojas</h3>
+                             <h3>Nombres: Guillermo</h3>
+                             <h3>Edad:   24</h3>
+                             <h3>Info:   Ingeniero Electrónico</h3>
+
+                            
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+         <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p3.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Angulo Diaz</h3>
+                             <h3>Nombres: Leidy</h3>
+                             <h3> Edad:   26</h3>
+                             <h3> Info    Estudiante de Administracion de Empresas</h3> 
+
+                            
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+         <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p4.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Jimenez</h3>
+                             <h3>   Nombres: Jorge</h3>
+                             <h3>   Edad:   26</h3>
+                             <h3>   Info Administrador Ambiental, 3 años de experiencia</h3>
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+         <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p5.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Gonzalez </h3>
+                              <h3>  Nombres: Filiberto </h3>
+                              <h3>  Edad:   24 </h3>
+                              <h3>  Info:  Contador público. 2 años de Experiencia </h3>
+
+                           
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+         <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p6.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Estrada Jurado</h3>
+                             <h3>   Nombres:  Ana María</h3>
+                             <h3>   Edad:   22</h3>
+                             <h3>   Info:       Psicología del marketing y del consumidor</h3>
+
+                            
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+         <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p7.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: McDonald Gordon</h3>
+                             <h3>   Nombres: Erick</h3>
+                             <h3>   Edad:   28</h3>
+                             <h3>   Info    English Teacher level C1</h3>
+
+                            
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+         <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p8.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Barreto</h3>
+                              <h3>   Nombres: Jose Luis</h3>
+                              <h3>   Edad:   29</h3>
+                               <h3>  Info    Administrador Financiero, experiencia bancaria 3 años </h3> 
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+         <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p9.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Cardozo Gordillo</h3>
+                              <h3>   Nombres: Nicolas</h3>
+                              <h3>   Edad:   32</h3>
+                              <h3>   Info:   Ingeniero Civil, experiencia vías terrestres</h3>
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>     
+        <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p10.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Buendia Jimenez</h3>
+                              <h3>   Nombres: Josefina</h3>
+                              <h3>   Edad:   30</h3>
+                              <h3>   Info    Estudiante séptimo semestre comunicación énfasis relaciones publicas y protocolo</h3>
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p11.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Camargo Estrada</h3>
+                             <h3>    Nombres: Martha</h3>
+                             <h3>    Edad:   28</h3>
+                             <h3>    Info:   Ingeniera Quimica Especialización Universitaria en Urgencias Toxicológicas por Drogas de Abuso</h3>
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p12.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Ruiz Paredes</h3>
+                              <h3>  Nombres: Ignacio</h3>
+                             <h3>   Edad:   34</h3>
+                             <h3>   Info Ingeniero de sistemas, ingeniero de Proyectos</h3>
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p13.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Duran Alfonso</h3>
+                             <h3>   Nombres: John Jairo</h3>
+                             <h3>   Edad:   30</h3>
+                             <h3>   Info:   Administrador, Ejecutivo ventas</h3>
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p14.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Gomez Gil</h3>
+                            <h3>    Nombres: Sandra Milena</h3>
+                            <h3>    Edad:   35</h3>
+                            <h3>    Info:   Secretaria bilingüe, 6 años de experiencia.</h3>
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p15.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos:  Barraza Contreras</h3>
+                             <h3>   Nombres: Ernesto</h3>
+                             <h3>   Edad:   36</h3>
+                             <h3>   Info:   Analista de riesgo financiero, 8 años de experiencia en Banca</h3>
+                            </h3>
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p16.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Guzmán Ladino</h3>
+                             <h3>   Nombres: José Luis</h3>
+                             <h3>   Edad:   42</h3>
+                             <h3>   Info:   Ingeniero Eléctrico y Electromecánico,  Coordinador Eléctrico</h3>
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p17.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos:  Mendoza Gutierrez</h3>
+                             <h3>   Nombres: Jessica</h3>
+                             <h3>   Edad:   32</h3>
+                             <h3>   Info    Licenciada en educación infantil, 6 años de experiencia</h3>
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p18.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos:  Andrade Tovar</h3>
+                             <h3>   Nombres: Camilo</h3>
+                             <h3>   Edad:   32</h3>
+                             <h3>   Info:   Analista y desarrollador de Software</h3>
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p19.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Jaramillo Sotelo</h3>
+                              <h3>  Nombres: William Andres</h3>
+                              <h3>  Edad:   46</h3>
+                              <h3>  Info    Economista, Trading, Comercio internacional</h3>
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
+        </div>
+        <div class="row">
+           <div class="col-md-6">  
+                <li class="breadcrumb">
+                    <div class="row">
+                        <div class="col-md-3"   >
+                            <img style="border-radius: 10px;" src="laborando/p20.png">
+                        </div>
+                        <div class="col-md-9">
+                             <h3>Apellidos: Rodriguez Ordoñez</h3>
+                              <h3>  Nombres: Carlos Javier</h3>
+                              <h3>  Edad:   39</h3>
+                              <h3>  Info:   jefe Chef, amplia experiencia hotelera.</h3>
+                             <button style="font-size: 20px; border-radius: 5px; margin-left: " type="button" class="btn btn-success">Leer Más</button>
+                        </div>
+                    </div>
+               </li>
+            </div>
         </div>
     </div>
 </div>
+
 
 
 

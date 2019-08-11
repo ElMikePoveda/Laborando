@@ -1,26 +1,190 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Laborando.com</title>
+    
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+    <title>Laborando.com</title>
+
+<style type="text/css">
+
+    
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header {
+    margin:auto;
+    width: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #000;
+    font-size:15px;
+    height: 44px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 15px;
+    display: block; 
+}
+
+.nav  li a:hover {
+    background-color: #434343;
+}
+
+
+
+.nav > li {
+    float:left;
+}
+
+
+.nav li ul {
+display:none; ;
+position:absolute;
+min-width:5px;
+z-index:2;  
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+
+.logo {
+    width:50%;
+    align-items: center;
+    text-align: center;
+    padding-top:8px;
+    padding-left:200px;
+}
+
+
+
+#Empresas > a:hover{
+    background-color: green!important;
+}
+#index > a:hover{
+    background-color: purple!important;
+}
+#Empleos > a:hover{
+    background-color: orange!important;
+}
+#Registro > a:hover{
+    background-color: #26c6da!important; 
+}
+
+</style>
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
-    <div class="buttons">
-       <a href="Empresas.html"><button type="button" class="btn btn-outline-dark">Empresas</button></a>
-       <a href="Empleos.html"><button type="button" class="btn btn-outline-dark">Empleos</button></a>
-       <a href="Registro.html"><button type="button" class="btn btn-outline-dark">Registrados</button></a>
-       
-     
         
+<div class="logo">
+    <table width="230%" border="0" >
+        <tr>
+            <td width="60%" align="left">
+                <img align="left" src="Laborando/laborando.png" width="50%">
+           </td>
+                <td>
+                <a class="btn btn-default circle" aling="center" style="font-size:15px; border-radius: 100%">
+                    <span class="fab fa-twitter"></span></a>
+                <a  class="btn btn-default circle" style="font-size:15px; border-radius:80%">
+                    <span class="fab fa-facebook-f"></span></a>
+                
+                <a  class="btn btn-default circle" style="font-size:15px; border-radius: 50%">
+                    <span class="fab fa-instagram"></span></a>
+                <a  class="btn btn-default circle" style="font-size:15px; border-radius: 50%">
+                    <span class="fab fa-youtube"></span></a>
+            
+            </td>
+            <td>
+
+            <button  align="right" type="button" class="btn btn-warning" style="border-radius:10px; font-size:19px;">Registrarse</button>
+            <button  align="right" type="button" class="btn btn-dark"style="border-radius:10px;  font-size:18px;color:#fff;">Iniciar Sesion</button>
+
+
+            </td>
+        </tr>
+    </table>
+
+    
+</div>
+
+
+
+<header>
+
+
+
+
+<div id="header">
+    
+    <ul class="nav">
+        <li id="index" style="margin-left: 380px" style="background-color: purple"><a href="index.html">Inicio</a></li>
+        <li id="Empresas" style="background-color: green"><a href="Empresas.html">Empresas</a></li>
+        <li id="Empleos" style="background-color: orange"><a href="Empleos.html">Empleos</a></li>
+        <li id="Registro" style="background-color:#26c6da "><a href="Registro.html">Registrados</a></li>
+        
+</div>
+
+
+</header>
+    
+<div class="fondo">
+    <div class="row">
+        .col-md-5   
+       <h1 class="p" style="color:white">El exito es tuyo,</h1>  
+       <h1 class="p" style="color:white">Lograrlo depende de ti</h1>    
     </div>
+    
+  
+    <div class="section" style="margin-top: 260px">  
+        <div class="row" style="width: 100%">
+            <!-- ini contenido -->    
+             <div class="col-md-4">
+                <ul >
+                    <center>
+                        <h1 style="color: white;">DISEÑADORES</h1><br>
+                        <h3 style="color: white;">Mike Anderson Poveda Barbosa</h3>
+                        <h3 style="color: white;">Pablo Leonardo Aponte Rios</h3>
+                    </center>
+                </ul>
+            </div> 
+            <div class="col-md-4">
+                <ul >
+                    <center>
+                        <h1 style="color: white;">Accesos rapidos</h1><br>
+                        <h3 style="color: white;">Mike Anderson Poveda Barbosa</h3>
+                        <h3 style="color: white;">Pablo Leonardo Aponte Rios</h3>
+                    </center>
+                </ul>
+            </div>
+             
+            <!-- fin contenido-->
+        </div>
+    </div>
+</div>
 
 
 
+    
+
+    
 </body>
 </html>
